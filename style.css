@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(135, 163, 33);
+}
+
+.hide {
+    display: none;
+  }
+  .car , .enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    background-image: url( https://mir-s3-cdn-cf.behance.net/project_modules/disp/c9f73e7791469.560b1fa1f3655.jpg);
+    background-size: cover;
+  }
+
+  .gameArea {
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 37%;
+  }
+
+  .line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+  }
+
+  .score {
+    background-color: rgb(236, 229, 229);
+    height: 70px;
+    text-align: center;
+    color: rgb(10, 1, 1);
+    font-size: 1.5em;
+    font-family: fantasy;
+  }
+  
+  .startScreen {
+    background-color: rgb(124, 16, 16);
+    text-align: center;
+    border: 1px solid rgb(228, 221, 221);
+    padding: 15px;
+    margin: auto;
+    width: 600px;
+  }
